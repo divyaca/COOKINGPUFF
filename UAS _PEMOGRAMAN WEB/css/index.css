@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 70px;
+}
+
+.topnav {
+    background-color: #F31559;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  
+  .topnav .pagename {
+    float: left;
+    padding: 14px 16px;
+    color: white;
+    font-size: 29px;
+    font-weight: bold;
+  }
+
+  
+  .topnav .rightnav {
+    float: right;
+  }
+
+  .topnav .rightnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .topnav .rightnav a:hover {
+    background-color: transparent;
+    color: white;
+  }
+
+  .rectangle-button {
+    background-color: #068FFF;
+    color: white;
+    border: none;
+    padding: 15px 30px; 
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 16px; 
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+
+  .rectangle-button:hover {
+    background-color: #45CFDD;
+  }
+
+  .button {
+    background-color: #4E4FEB;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+
+  .button1:hover {
+    background-color: #FF2E63;
+    color: white;
+  }
+  
+  .content-frame {
+    display: flex;
+    flex-wrap: wrap; /* This allows the tutor cards to wrap to the next line if needed */
+    justify-content: center;  
+    align-items: center; 
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .content-image {
+    flex: 1; 
+    padding: 10px;
+  }
+
+  .content-image img {
+    max-width: 100%; 
+    display: block; 
+  }
+
+  .content-text {
+    flex: 2; 
+    padding: 10px;
+  }
+
+  .content-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .kartu-tutor {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.kartu-tutor p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #0B666A;
+    margin-top: 10px;
+}
+
+.h2{
+  color: #FF2E63;
+}
+
+.h1{
+  color: #FF2E63;
+}
+
+.bottomnav {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow at the bottom */
+}
+
+.bottomnav a {
+  display: inline-block;
+  text-decoration: none;
+  color: gray;
+}
+
+.bottomnav a:hover {
+  opacity: 0.8; /* Reduce opacity on hover for a visual effect */
+}
+
+.bottomnav img {
+  width: 40px;
+  height: 40px;
+  margin: 8px; /* Increase spacing between icons */
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition on hover */
+}
+
+.bottomnav img:hover {
+  transform: scale(1.2); /* Enlarge the icon slightly on hover */
+}

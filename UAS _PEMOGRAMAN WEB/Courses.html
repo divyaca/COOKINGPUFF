@@ -1,0 +1,47 @@
+<html>
+<head>
+<style>
+.mainmenubtn {
+    background-color:  #F31559;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: #F31559;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: #F31559;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color:#ffffff;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+</style>
+</head>
+<body>
+<div class="dropdown">
+  <button class="mainmenubtn">Main Menu</button>
+  <div class="dropdown-child">
+    <a href="https://www.youtube.com/watch?v=vpwY3nmLLaA">Pastry</a>
+    <a href="https://www.youtube.com/watch?v=HcCzmFTqAqU">Tart</a>
+    <a href="https://www.youtube.com/watch?v=6OuJzGA0Umg">Brownies</a>
+    <a href="https://www.youtube.com/watch?v=lJ7Ec3bKrxM">Cookies</a>
+    <a href="https://www.youtube.com/watch?v=O1CNMqvqEWg">Bakery</a>
+  </div>
+</div>
+</body>
+</html>
